@@ -20,13 +20,16 @@ Place Vosk models under `model/`:
 - `model/vosk-model-en-us-0.22`
 - `model/vosk-model-en-in-0.5`
 
-You can download the large and India models with:
+You can download all required models with:
 
 ```powershell
 .\download_models.ps1
 ```
 
-If you use the small US model, download it manually and extract it into `model/vosk-model-small-en-us-0.15`.
+The script installs:
+- `vosk-model-small-en-us-0.15`
+- `vosk-model-en-us-0.22`
+- `vosk-model-en-in-0.5`
 
 ## CLI Usage
 

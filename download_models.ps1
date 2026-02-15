@@ -1,4 +1,5 @@
 $models = @(
+    @{ url = "https://alphacephei.com/vosk/models/vosk-model-small-en-us-0.15.zip"; name = "vosk-model-small-en-us-0.15" },
     @{ url = "https://alphacephei.com/vosk/models/vosk-model-en-us-0.22.zip"; name = "vosk-model-en-us-0.22" },
     @{ url = "https://alphacephei.com/vosk/models/vosk-model-en-in-0.5.zip"; name = "vosk-model-en-in-0.5" }
 )
