@@ -1,0 +1,24 @@
+# Maven build output
+target/
+
+# Vosk model (large binary, download separately)
+model/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local logs and run outputs
+*.log
+/server*.log
+/build_output.txt
+/compile_*.txt
+/cp.txt
+/diag_*.txt
+/out_*.txt
+/run_*.txt

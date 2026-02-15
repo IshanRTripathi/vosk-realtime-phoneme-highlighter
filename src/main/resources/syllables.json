@@ -1,0 +1,88 @@
+{
+    "hello": [
+        {
+            "token": "he",
+            "display": "HH-EH"
+        },
+        {
+            "token": "low",
+            "display": "L-OW"
+        }
+    ],
+    "kamala": [
+        {
+            "token": "car",
+            "display": "K-AA"
+        },
+        {
+            "token": "ma",
+            "display": "M-AA"
+        },
+        {
+            "token": "la",
+            "display": "L-AA"
+        }
+    ],
+    "world": [
+        {
+            "token": "world",
+            "display": "W-ER-L-D"
+        }
+    ],
+    "banana": [
+        {
+            "token": "bah",
+            "display": "B-AH"
+        },
+        {
+            "token": "nah",
+            "display": "N-AE"
+        },
+        {
+            "token": "nah",
+            "display": "N-AH"
+        }
+    ],
+    "apple": [
+        {
+            "token": "app",
+            "display": "AE-P"
+        },
+        {
+            "token": "pull",
+            "display": "P-L"
+        }
+    ],
+    "computer": [
+        {
+            "token": "come",
+            "display": "K-AH-M"
+        },
+        {
+            "token": "pew",
+            "display": "P-Y-UW"
+        },
+        {
+            "token": "tear",
+            "display": "T-ER"
+        }
+    ],
+    "i": [
+        {
+            "token": "i",
+            "display": "AY"
+        }
+    ],
+    "eat": [
+        {
+            "token": "eat",
+            "display": "IY-T"
+        }
+    ],
+    "and": [
+        {
+            "token": "and",
+            "display": "AE-N-D"
+        }
+    ]
+}

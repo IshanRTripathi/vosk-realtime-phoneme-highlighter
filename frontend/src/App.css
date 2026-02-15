@@ -1,0 +1,192 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.controls {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  background: #1a1a1a;
+}
+
+.status {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.status.open { color: #4caf50; }
+.status.closed { color: #f44336; }
+.status.connecting { color: #ff9800; }
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #646cff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #535bf2;
+}
+button:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+}
+button.stop {
+  background-color: #f44336;
+}
+button.stop:hover {
+  background-color: #d32f2f;
+}
+
+.transcription-box {
+  width: 100%;
+  max-width: 800px;
+  min-height: 200px;
+  padding: 20px;
+  border: 1px solid #444;
+  border-radius: 8px;
+  background: #242424;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: flex-start;
+}
+
+.result-item {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px 10px;
+  background: #333;
+  border-radius: 6px;
+}
+
+.word {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #fff;
+}
+
+.phonemes {
+  font-size: 0.9em;
+  color: #aaa;
+  margin-top: 4px;
+  font-family: monospace;
+}
+
+.partial-item {
+  opacity: 0.6;
+  border: 1px dashed #666;
+}
+
+/* New Config Panel */
+.config-panel {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background: #2a2a2a;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.config-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.config-group.full-width {
+    width: 100%;
+}
+
+.toggle-group {
+    display: flex;
+    gap: 10px;
+}
+
+.toggle-group button {
+    background: #444;
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
+.toggle-group button.active {
+    background: #4caf50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+input[type='text'] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #555;
+    background: #333;
+    color: white;
+    font-size: 16px;
+}
+
+.result-item.grammar {
+    border: 1px solid #4CAF50;
+    background: #1B5E20;
+}
+
+.status-indicator.open { color: #4caf50; }
+.status-indicator.closed { color: #f44336; }
+.status-indicator.connecting { color: #ff9800; }
+
+
+/* Syllable Highlighting */
+.target-display {
+    width: 100%;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.syllable-track {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.syllable-block {
+    padding: 10px 15px;
+    background: #333;
+    border: 2px solid #555;
+    border-radius: 8px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #aaa;
+    transition: all 0.2s ease;
+}
+
+.syllable-block.matched {
+    background: #4CAF50;
+    border-color: #4CAF50;
+    color: white;
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.6);
+    transform: scale(1.05);
+}
+
+.result-token {
+    font-size: 1.2em;
+    color: #fff;
+    margin-right: 5px;
+}
+
